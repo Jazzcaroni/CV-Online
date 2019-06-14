@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+.menu {
+  width: 20%;
+  height: 100%;
+  float: left;
+  padding: 15px;
+  background-color: $verde;
+  position: fixed;
+}
+.menu__avatar {
+  padding: 1rem;
+}
+.menu__lista {
+  list-style: none;
+}
+
+@media only screen and (max-width: 1280px){
+
+}
+
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 375px){
+
+}

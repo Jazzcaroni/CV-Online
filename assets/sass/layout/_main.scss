@@ -1,0 +1,92 @@
+
+a:link {
+  text-decoration: none;
+  color: $negro;
+}
+a:visited {
+  text-decoration: none;
+  color: $negro;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 1280px){
+  * {
+    box-sizing: border-box;
+  }
+  .main {
+    width: 80%;
+    float: left;
+    padding-left: 4rem;
+    padding-right: 8rem;
+    margin-left: 15rem;
+  }
+  .main__vane {
+    padding: 1rem 2rem 1rem 0;
+  }
+  .main__texto {
+    padding: 2rem 2rem 1rem 0;
+  }
+  .main__iconos  {
+    padding-bottom: 4rem;
+  }
+  .main__iconos__espacio {
+    padding: .5rem;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  * {
+    box-sizing: border-box;
+  }
+  .main {
+    width: 80%;
+    float: left;
+    padding-left: 4rem;
+    padding-right: 8rem;
+    margin-left: 10rem;
+  }
+  .main__vane {
+    padding: 1rem 2rem 1rem 0;
+  }
+  .main__texto {
+    padding: 2rem 2rem 1rem 0;
+  }
+  .main__iconos  {
+    padding-bottom: 4rem;
+  }
+  .main__iconos__espacio {
+    padding: .5rem;
+  }
+
+}
+
+@media only screen and (max-width: 375px){
+  * {
+    box-sizing: border-box;
+  }
+  .main {
+    width: 80%;
+    float: left;
+    padding-left: 4rem;
+    padding-right: 8rem;
+    margin-left: 10rem;
+  }
+  .main__vane {
+    padding: 1rem 2rem 1rem 0;
+  }
+  .main__texto {
+    padding: 2rem 2rem 1rem 0;
+  }
+  .main__iconos  {
+    padding-bottom: 4rem;
+  }
+  .main__iconos__espacio {
+    padding: .5rem;
+  }
+
+}

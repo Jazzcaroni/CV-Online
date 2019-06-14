@@ -5,31 +5,27 @@
   'abstracts/placeholders';
 
 @import
-  'vendors/bootstrap',
-  'vendors/jquery-ui';
+  'vendors/bootstrap-4.3.1/bootstrap';
 
 @import
+  'base/base',
   'base/reset',
   'base/typography';
 
 @import
-  'layout/navigation',
-  'layout/grid',
-  'layout/header',
-  'layout/footer',
+  'layout/main',
   'layout/sidebar',
-  'layout/forms';
+  'layout/section',
+  'layout/form';
 
 @import
   'components/buttons',
-  'components/carousel',
-  'components/cover',
-  'components/dropdown';
+  'components/cover';
+
 
 @import
   'pages/home',
   'pages/contact';
 
 @import
-  'themes/theme',
-  'themes/admin';
+  'themes/theme';
