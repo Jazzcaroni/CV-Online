@@ -1,19 +1,94 @@
-h1 {
-  font-family: $lato;
-  font-weight: $muygrueso;
-}
 
-h2 {
-  font-family: $lato;
-  font-weight: $muygrueso;
-}
+@media only screen and (max-width: 1280px){
+  h1 {
+    font-family: $lato;
+    font-weight: $muygrueso;
+    font-size: $xxx-large;
+  }
 
-h3 {
-  font-family: $lato;
-  font-weight: $grueso;
-}
+  h2 {
+    font-family: $lato;
+    font-weight: $muygrueso;
+    font-size: $xx-large;
+  }
 
-p {
-  font-family: $lato;
-  color: $gris;
-}
+  h3 {
+    font-family: $lato;
+    font-weight: $grueso;
+    font-size: $x-large;
+  }
+
+  p {
+    font-family: $lato;
+    color: $gris;
+    font-size: $medium;
+  }
+
+  span {
+    font-family: $lato;
+    color: $gris;
+    font-size: $medium;
+  }
+  }
+@media only screen and (max-width: 768px){
+  h1 {
+    font-family: $lato;
+    font-weight: $muygrueso;
+    font-size: $xxx-large;
+  }
+
+  h2 {
+    font-family: $lato;
+    font-weight: $muygrueso;
+    font-size: $xx-large;
+  }
+
+  h3 {
+    font-family: $lato;
+    font-weight: $grueso;
+    font-size: $x-large;
+  }
+
+  p {
+    font-family: $lato;
+    color: $gris;
+    font-size: $medium;
+  }
+
+  span {
+    font-family: $lato;
+    color: $gris;
+    font-size: $medium;
+  }
+    }
+@media only screen and (max-width: 375px){
+  h1 {
+    font-family: $lato;
+    font-weight: $muygrueso;
+    font-size: $xx-large;
+  }
+
+  h2 {
+    font-family: $lato;
+    font-weight: $muygrueso;
+    font-size: $x-large;
+  }
+
+  h3 {
+    font-family: $lato;
+    font-weight: $grueso;
+    font-size: $large;
+  }
+
+  p {
+    font-family: $lato;
+    color: $gris;
+    font-size: $small;
+  }
+
+  span {
+    font-family: $lato;
+    color: $gris;
+    font-size: $small;
+  }
+      }

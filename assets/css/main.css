@@ -9655,26 +9655,141 @@ h3 {
     border-color: #dee2e6;
   }
 }
-h1 {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-h2 {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
 }
 
-h3 {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
+body {
+  line-height: 1;
 }
 
-p {
-  font-family: "Lato", sans-serif;
-  color: #2d3047;
+ol, ul {
+  list-style: none;
 }
 
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media only screen and (max-width: 1280px) {
+  h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+  }
+
+  h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+  }
+
+  h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  p {
+    font-family: "Lato", sans-serif;
+    color: #2d3047;
+    font-size: 16px;
+  }
+
+  span {
+    font-family: "Lato", sans-serif;
+    color: #2d3047;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+  }
+
+  h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+  }
+
+  h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  p {
+    font-family: "Lato", sans-serif;
+    color: #2d3047;
+    font-size: 16px;
+  }
+
+  span {
+    font-family: "Lato", sans-serif;
+    color: #2d3047;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+  }
+
+  h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  p {
+    font-family: "Lato", sans-serif;
+    color: #2d3047;
+    font-size: 14px;
+  }
+
+  span {
+    font-family: "Lato", sans-serif;
+    color: #2d3047;
+    font-size: 14px;
+  }
+}
 a:link {
   text-decoration: none;
   color: #071013;
@@ -9760,13 +9875,13 @@ a:active {
   .main {
     width: 80%;
     float: left;
-    padding-left: 4rem;
-    padding-right: 8rem;
-    margin-left: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 4rem;
   }
 
   .main__vane {
-    padding: 1rem 2rem 1rem 0;
+    padding: 1rem 4rem 1rem 0;
   }
 
   .main__texto {
@@ -9787,7 +9902,7 @@ a:active {
   }
 
   .menu {
-    padding-top: 4rem;
+    padding-top: 27rem;
     width: 20%;
     height: 100%;
     float: left;
@@ -9802,6 +9917,13 @@ a:active {
 
   .menu__lista {
     list-style: none;
+    padding-top: 26rem;
+    padding-left: 0.9rem;
+  }
+  .menu__lista .nav-link {
+    color: #071013;
+    font-family: lato;
+    text-align: center;
   }
 
   .navbar-expand-lg .navbar-nav {
@@ -9811,7 +9933,7 @@ a:active {
 
   expand-lg .navbar-collapse {
     position: absolute;
-    padding-top: 27rem;
+    top: 30rem;
   }
 
   .navbar-collapse {
@@ -9830,13 +9952,14 @@ a:active {
     width: 20%;
     height: 100%;
     float: left;
-    padding: 15px;
+    padding: 0.5rem;
     background-color: #7cea9c;
     position: fixed;
   }
 
   .menu__avatar {
-    padding: 4rem 0rem 0rem 0rem;
+    padding: 4rem 0rem 0.5rem 0.2rem;
+    width: 100%;
   }
 
   .menu__lista {
@@ -9850,37 +9973,106 @@ a:active {
 
   .menu {
     width: 20%;
-    height: 15%;
+    height: 18%;
     float: left;
-    padding: 15px;
+    padding: 0.1rem;
     background-color: #7cea9c;
     position: fixed;
   }
 
   .menu__avatar {
-    padding: 4rem 0rem 0rem 0rem;
-    background-color: #7cea9c;
+    padding: 0.1rem 0.5rem 0.5rem 0rem;
+    width: 3.4rem;
   }
 
   .menu__lista {
     list-style: none;
   }
 }
-.experiencia__titulo {
-  padding-bottom: 5rem;
-  padding-top: 5rem;
-}
+@media only screen and (max-width: 1280px) {
+  .experiencia__titulo {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
 
-.educacion__titulo {
-  padding-bottom: 4rem;
-  padding-top: 4rem;
-}
+  .experiencia__contenido {
+    padding-bottom: 4rem;
+  }
 
-.habilidades__titulo {
-  padding-bottom: 4rem;
-  padding-top: 4rem;
-}
+  .experiencia__contenido__espacio {
+    float: right;
+  }
 
+  .educacion__titulo {
+    padding-bottom: 4rem;
+    padding-top: 3.5rem;
+  }
+
+  .educacion__contenido {
+    padding-bottom: 4rem;
+  }
+
+  .educacion__contenido__espacio {
+    float: right;
+  }
+
+  .habilidades__titulo {
+    padding-bottom: 4rem;
+    padding-top: 3.5rem;
+  }
+
+  .habilidades__contenido {
+    padding-bottom: 4rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .experiencia__titulo {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+
+  .experiencia__contenido__espacio {
+    float: right;
+  }
+
+  .educacion__titulo {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+
+  .educacion__contenido__espacio {
+    float: right;
+  }
+
+  .habilidades__titulo {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .experiencia__titulo {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+
+  .experiencia__contenido__espacio {
+    float: right;
+  }
+
+  .educacion__titulo {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+
+  .educacion__contenido__espacio {
+    float: right;
+  }
+
+  .habilidades__titulo {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+}
 @media only screen and (max-width: 1280px) {
   .contacto__contenido__titulos {
     padding-bottom: 4rem;

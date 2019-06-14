@@ -6,7 +6,7 @@
     box-sizing: border-box;
   }
   .menu {
-    padding-top: 4rem;
+    padding-top: 27rem;
     width: 20%;
     height: 100%;
     float: left;
@@ -19,27 +19,32 @@
   }
   .menu__lista {
     list-style: none;
-    padding-top: 8rem;
+    padding-top: 26rem;
+    padding-left: .9rem;
+
+    .nav-link {
+      color: $negro;
+      font-family: lato;
+      text-align: center;
+    }
+
   }
 
 .navbar-expand-lg .navbar-nav {
     -ms-flex-direction: row;
     flex-direction: column;
-    padding-top: 27rem;
+
 }
 
  expand-lg .navbar-collapse {
     position: absolute;
-    padding-top: 30rem;
+    top: 30rem;
 }
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
     align-items: center;
     position: absolute;
-}
-#navbarNav {
-  padding-top: 5rem;
 }
 
 }
@@ -51,12 +56,13 @@
     width: 20%;
     height: 100%;
     float: left;
-    padding: 15px;
+    padding: .5rem;
     background-color: $verde;
     position: fixed;
   }
   .menu__avatar {
-    padding: 4rem 0rem 0rem 0rem;
+    padding: 4rem 0rem .5rem 0.2rem;
+    width: 100%;
   }
   .menu__lista {
     list-style: none;
@@ -70,15 +76,15 @@
   }
   .menu {
     width: 20%;
-    height: 15%;
+    height: 18%;
     float: left;
-    padding: 15px;
+    padding: .1rem;
     background-color: $verde;
     position: fixed;
   }
   .menu__avatar {
-    padding: 4rem 0rem 0rem 0rem;
-    background-color: $verde;
+    padding: .1rem .5rem .5rem 0rem;
+    width: 3.4rem;
 
   }
   .menu__lista {
