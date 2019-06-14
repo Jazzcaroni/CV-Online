@@ -21,15 +21,31 @@ crossorigin="anonymous">
   <!---- Sidebar ---->
   <sidebar>
     <div class="menu">
-    <img class="menu__avatar"src="assets/images/avatar.png" alt="Avatar">
-    <ul class="menu__lista">
-      <li> <a href="#sobre-mi">Acerca de mi</li>
-      <li><a href="#experiencia">Experiencia</li>
-      <li><a href="#educacion">Educación</li>
-      <li><a href="#habilidades">Habilidades</li>
-      <li><a href="#contacto">Contacto</li>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand menu__avatar" href="#"><img class="menu__avatar" src="assets/images/avatar.png" alt="Avatar"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse menu__lista" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#sobre-mi">Acerca de mi<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#experiencia">Experiencia</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#habilidades">Habilidades</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacto">Contacto</a>
+      </li>
     </ul>
+  </div>
+</nav>
     </div>
+
   </sidebar>
 
   <main class="main">
